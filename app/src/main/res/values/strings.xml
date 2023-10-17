@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Expert</string>
+    <string name="sekolah">Sekolah</string>
+    <string name="npsn">NPSN</string>
+    <string name="alamat">Alamat</string>
+    <string name="propinsi">Propinsi</string>
+    <string name="kecamatan">Kecamatan</string>
+    <string name="nama_sekolah">Nama Sekolah</string>
+    <string name="title_favorite">Sekolah Favorit</string>
+    <string name="tambah_favorite">Sekolah ditambahkan ke favorit</string>
+    <string name="hapus_favorite">Sekolah dihapus dari favorit</string>
+    <string name="error_pesan">Terjadi masalah, silakan coba lagi</string>
+</resources>
