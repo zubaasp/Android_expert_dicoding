@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv_sekolah"
     android:clickable="true"
     android:focusable="true"
     android:layout_width="match_parent"
@@ -15,6 +16,7 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/NamaSekolah"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:text="SDN 04 pagi jakarta"
@@ -22,6 +24,7 @@
             android:textSize="22sp"/>
 
         <TextView
+            android:id="@+id/AlamatSekolah"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:text="Gondang Dia, Jakarta"

@@ -7,6 +7,7 @@
     tools:context=".home.HomeFragment">
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSekolah"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:listitem="@layout/item_row_sekolah"
@@ -14,6 +15,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <include
+        android:id="@+id/viewError"
         layout="@layout/view_error"
         android:visibility="gone"
         app:layout_constraintTop_toTopOf="parent"

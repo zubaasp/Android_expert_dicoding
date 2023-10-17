@@ -28,6 +28,7 @@
                 android:textColor="@color/white"/>
 
             <TextView
+                android:id="@+id/tv_sekolah"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/sekolah"
@@ -51,6 +52,7 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/tv_npsn"
                 android:layout_marginBottom="8dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -65,6 +67,7 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/tv_alamat"
                 android:layout_marginBottom="8dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -79,6 +82,7 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/tv_kecamatan"
                 android:layout_marginBottom="8dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -93,6 +97,7 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/tv_propinsi"
                 android:layout_marginBottom="8dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -104,6 +109,7 @@
     </LinearLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_favorite"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
